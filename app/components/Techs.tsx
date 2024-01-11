@@ -2,7 +2,7 @@ import { DockerIcon, GitIcon, MongodbIcon, MysqlIcon, RedisIcon } from "./IconSV
 
 export const Techs = () => {
   return (
-    <div className="flex gap-5 justify-center">
+    <div className="flex gap-5 justify-center overflow-hidden">
         <span data-aos="fade-left" data-aos-delay="200"><MongodbIcon/></span>
         <span data-aos="fade-left" data-aos-delay="250"><MysqlIcon/></span>
         <span data-aos="fade-left" data-aos-delay="300"><GitIcon/></span>

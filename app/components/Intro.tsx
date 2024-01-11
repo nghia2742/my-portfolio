@@ -3,7 +3,7 @@ import { GithubIcon, GmailIcon, LinkedinIcon } from "./IconSVG";
 
 export const Intro = () => {
     return (
-        <div className="flex flex-col items-center" data-aos="zoom-in">
+        <div className="flex flex-col items-center" data-aos="fade-in">
             <div className="neumorphism w-full h-fit p-6 rounded-md text-justify mb-10">
                 I am a Web Developer focused on Node.js and React.js, boasting
                 over 6 months of hands-on experience. I am highly responsible
