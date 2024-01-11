@@ -52,10 +52,10 @@ export default function Home() {
                 <Navbar />
 
                 {/* Wrap primary content */}
-                <div className="p-10">
+                <div className="p-5 md:p-10">
                     {/* INTRODUCE */}
                     <div className="mb-24">
-                        <h1 className="antialiased text-3xl font-bold mb-5 flex gap-5 items-center">
+                        <h1 className="antialiased text-3xl font-bold mb-5 flex gap-5 items-center pt-10 sm:pt-0">
                             <TriangleIcon />
                             Introduce
                         </h1>

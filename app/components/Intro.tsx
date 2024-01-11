@@ -4,7 +4,7 @@ import { GithubIcon, GmailIcon, LinkedinIcon } from "./IconSVG";
 export const Intro = () => {
     return (
         <div className="flex flex-col items-center" data-aos="fade-in">
-            <div className="neumorphism w-full h-fit p-6 rounded-md text-justify mb-10">
+            <div className="neumorphism w-full h-fit p-6 rounded-md mb-10 text-justify">
             Passionate and driven professional with a robust background in web development, aspiring to apply expertise in Fullstack development. Committed to ongoing learning and evolution within the dynamic tech realm. Goal-oriented to deliver innovative solutions, expand skill sets, and thrive in a collaborative team environment.
             </div>
             <div className="flex gap-4 w-full">
