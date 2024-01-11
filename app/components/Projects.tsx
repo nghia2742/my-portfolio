@@ -5,7 +5,7 @@ import ChatmeowImage from '@/app/assets/chatmeow.png';
 const projectList = [
     {
         id: 1,
-        name: 'Furniture',
+        name: 'Furniano',
         url: 'https://furniano.vercel.app',
         image: FurnitureImage,
         desc: "This furniture web project is organized on both backend and frontend. Backend code follows the MVC model, connecting to MongoDB, while the frontend utilizes UI libraries like Tailwind and DaisyUI for efficiency. Features include registration, login, Oauth2, product display through APIs, product filtering, shopping cart management, wishlists, and order payment processing. It focuses on optimizing the interface and ensuring compatibility with different devices.",
