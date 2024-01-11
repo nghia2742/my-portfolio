@@ -26,3 +26,16 @@
     -webkit-backdrop-filter: blur(4px);
     border: 1px solid rgba(166, 173, 187, 0.05);
 }
+
+@keyframes gradient-infinity {
+    0% {
+        background-position: 100% 0%;
+    }
+    100% {
+        background-position: -100% 0%;
+    }
+}
+
+.animate-gradient-infinity {
+    animation: gradient-infinity 1s linear infinite;
+}

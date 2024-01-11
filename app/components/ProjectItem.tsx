@@ -9,6 +9,8 @@ interface Project {
     url: string;
     image: StaticImageData;
     desc: string;
+    res: string;
+    tech: string;
 }
 
 interface ProjectItemProps {
@@ -23,13 +25,15 @@ export const ProjectItem: React.FC<ProjectItemProps> = ({ project }) => {
                 <div className="collapse-title text-xl font-medium">
                     {project.name}
                 </div>
-                <div className="collapse-content">
-                    {project.desc}
+                <div className="collapse-content text-justify pl-10">
+                    <p className='pb-3'><b>Description:</b> {project.desc}</p>
+                    {project.res != "" && <p className='pb-3'><b>Responsibilities:</b> {project.res}</p>}
+                    <p className='pb-3'><b>Technologies & libraries:</b> {project.tech}</p>
                 </div>
             </div>
             <div className="mx-auto lg:w-3/4 mockup-browser border bg-base-300">
                 <div className="mockup-browser-toolbar">
-                    <Link href={project.url} className="input" target="_blank">
+                    <Link href={project.url} className="input text-sm leading-7" target="_blank">
                         {project.url}
                     </Link>
                 </div>

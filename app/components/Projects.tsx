@@ -6,16 +6,20 @@ const projectList = [
     {
         id: 1,
         name: 'Furniture',
-        url: 'https://furniture-store-ntn.vercel.app',
+        url: 'https://furniano.vercel.app',
         image: FurnitureImage,
-        desc: 'This is a personal project. I am focused on using ReactJS, Redux Toolkit to create UX/UI.',
+        desc: "This furniture web project is organized on both backend and frontend. Backend code follows the MVC model, connecting to MongoDB, while the frontend utilizes UI libraries like Tailwind and DaisyUI for efficiency. Features include registration, login, Oauth2, product display through APIs, product filtering, shopping cart management, wishlists, and order payment processing. It focuses on optimizing the interface and ensuring compatibility with different devices.",
+        res: '',
+        tech: "NextJS, ExpressJS, Tailwind, DaisyUI, Redux Toolkit, Next-auth, MongoDB.",
     },
     {
         id: 2,
         name: 'Chat Meow',
         url: 'https://chat.meowtech.vn',
         image: ChatmeowImage,
-        desc: "This is a company's project. Using the Laravel framework, primarily. My assignment guaranteed stable, rapid, and effective responses from API ChatGPT. I also designed the UI task for this chat platform.",
+        desc: 'This project employs generative AI, specifically ChatGPT, to deliver intelligent responses to users. The primary objective is to furnish a welcoming, user-friendly, and efficient interface and interaction via distinct characters within the space.',
+        res: 'Included designing and implementing UX/UI, managing frontend logic, designing databases, and creating APIs to manage client-side requests. Additionally, actively engaged in code reviews, debugging, and issue resolution to uphold stringent source code standards and ensure system stability.',
+        tech: "Laravel, MySQL, Booststrap, Jquery, ChatGPT.",
     },
 ];
 
