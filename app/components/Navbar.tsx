@@ -14,7 +14,7 @@ export const Navbar = () => {
     }, []);
 
     return (
-        <div className="fixed flex lg:sticky top-0 left-0 w-full h-14 glassmorphism justify-end p-5 items-center">
+        <div className="fixed flex lg:sticky top-0 left-0 w-full z-50 h-14 glassmorphism justify-end p-5 items-center">
             <label className="swap swap-rotate">
                 {/* this hidden checkbox controls the state */}
                 <input type="checkbox" className="theme-controller" />
